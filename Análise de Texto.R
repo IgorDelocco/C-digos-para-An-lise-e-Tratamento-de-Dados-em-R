@@ -28,3 +28,4 @@ ggplot(tidy_text_sem_stopwords %>% slice(1:50), aes(x = reorder(word, n), y = n)
   geom_bar(stat = "identity", fill ="skyblue")+
   coord_flip() +
   labs(title = "50 mais frequentes", x = "Palavra", y = "Frequência")
+
