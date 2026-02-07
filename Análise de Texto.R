@@ -24,8 +24,9 @@ tidy_text_sem_stopwords = tidy_text %>%
   count(word, sort = TRUE)
 
 #gráfico 1
-ggplot(tidy_text_sem_stopwords %>% slice(1:50), aes(x = reorder(word, n), y = n))+
+ggplot(tidy_text_sem_stopwords %>% slice(1:25), aes(x = reorder(word, n), y = n))+
   geom_bar(stat = "identity", fill ="skyblue")+
   coord_flip() +
-  labs(title = "50 mais frequentes", x = "Palavra", y = "Frequência")
+  labs(title = "25 mais frequentes", x = "Palavra", y = "Frequência")
+
 
