@@ -21,4 +21,4 @@ O código possui um caráter **manual**, exigindo:
 ### Tecnologias Utilizadas
 
 - **R**
-- Pacotes como `pdftools`, `tidyverse`, `stringr`, `ggplot2`
+- Pacotes como `pdftools`, `tidytext`, `dplyr`, `tm`, `ggplot2`
